@@ -2,6 +2,17 @@ import type { Metadata } from 'next'
 import ToolHeader from '@/components/ToolHeader'
 import Footer from '@/components/Footer'
 
+const webAppSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'goldiracalculators.app',
+  url: 'https://goldiracalculators.app',
+  description: 'Free 2026 gold IRA calculators for retirement planning, precious metals allocation, 401k rollover, and gold vs stocks comparison.',
+  applicationCategory: 'FinanceApplication',
+  operatingSystem: 'Any',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+}
+
 export const metadata: Metadata = {
   title: 'Privacy Policy — goldiracalculators.app',
   description: 'Privacy policy for goldiracalculators.app. All gold IRA calculations are done locally in your browser. No personal financial data is collected or transmitted.',
@@ -12,6 +23,7 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppSchema).replace(/</g, '\\u003c') }} />
       <section className="relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/herobggic.webp')" }}>
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 pb-10">

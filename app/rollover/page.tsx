@@ -9,7 +9,7 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: '401k to Gold IRA Rollover Calculator 2026',
   description:
-    'Calculate your 401k to gold IRA rollover tax implications. Free rollover calculator showing direct vs indirect rollover differences and projected growth after transfer.',
+    'Free 401k to gold IRA rollover calculator for 2026. Shows direct vs indirect rollover tax implications and projected gold IRA growth after transfer.',
   alternates: { canonical: 'https://goldiracalculators.app/rollover' },
   robots: { index: true, follow: true },
 }

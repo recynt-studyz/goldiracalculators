@@ -9,7 +9,7 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Gold vs Stocks Calculator — Which Performs Better?',
   description:
-    'Compare gold IRA returns vs stock market performance. Free gold vs stocks calculator with historical data, inflation adjustment, and side-by-side retirement projections.',
+    'Compare gold IRA returns vs stock market performance. Free calculator with historical data, inflation adjustment, and side-by-side retirement projections.',
   alternates: { canonical: 'https://goldiracalculators.app/gold-vs-stocks' },
   robots: { index: true, follow: true },
 }

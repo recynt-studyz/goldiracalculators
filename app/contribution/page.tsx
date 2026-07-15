@@ -9,7 +9,7 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Gold IRA Contribution Calculator 2026 — Maximize Your Savings',
   description:
-    'Calculate your maximum gold IRA contributions for 2026. Free calculator showing IRS limits, catch-up contributions for 50+, and projected retirement balance at maximum contributions.',
+    'Free gold IRA contribution calculator for 2026. Shows IRS limits, catch-up contributions for age 50+, and projected retirement balance at maximum savings.',
   alternates: { canonical: 'https://goldiracalculators.app/contribution' },
   robots: { index: true, follow: true },
 }

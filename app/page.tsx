@@ -9,7 +9,7 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Gold IRA Calculator 2026 — Project Your Retirement Growth',
   description:
-    'Calculate how your gold IRA will grow by retirement. Free gold IRA growth calculator with 2026 IRS contribution limits, historical gold returns, and inflation-adjusted projections.',
+    'Free gold IRA growth calculator for 2026. Project your retirement balance with IRS contribution limits, historical gold returns, and inflation-adjusted projections.',
   alternates: { canonical: 'https://goldiracalculators.app' },
   robots: { index: true, follow: true },
 }

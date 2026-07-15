@@ -9,7 +9,7 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Gold IRA Allocation Calculator — How Much Gold Should You Own?',
   description:
-    'Calculate the right precious metals allocation for your retirement portfolio. Free gold IRA allocation calculator based on age, risk tolerance, and years to retirement.',
+    'Free gold IRA allocation calculator for 2026. Find your ideal precious metals allocation based on age, risk tolerance, and years to retirement.',
   alternates: { canonical: 'https://goldiracalculators.app/allocation' },
   robots: { index: true, follow: true },
 }
